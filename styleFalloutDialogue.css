@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to bottom, #0e1e2e, #2b5835);
+    background-attachment: fixed;
+}
+
+.videoContainer {
+    width: 640px;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* Button Styles*/
+
+#buttonBox {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    
+   
+    border: 2px solid;
+    border-image: linear-gradient(0deg, rgba(72,247,212,1) 0%, rgba(20,200,99,1) 10%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, rgba(20,200,99,1) 90%, rgba(72,247,212,1) 100%) 1;
+    
+    margin:8px;
+    outline: 8px rgba(0, 0, 0, 0.5) solid;
+}
+
+.videoContainer button {
+    font-family: "Courier";
+    font-size: 16px;
+    font-kerning: none;
+    letter-spacing: -1px;
+    text-align: left;
+    text-decoration: none;   
+    
+    width:100%;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #23f39d;
+    
+    
+    border: none;
+    padding: 8px 10px;
+    margin-top:4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.videoContainer button:hover {
+    background-color: rgba(38, 97, 46, 0.8);
+
+    color: #48f7d4;
+    outline-offset: -2px;
+    outline: 2px solid #48f7d4;
+}
